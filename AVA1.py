@@ -22,11 +22,9 @@ def MediaFinal(a, b):
 def VerificaNota(n):
   if  10 >= n >= 6:
     return print(f"Nota: {n}, APROVADO!")
-  elif 6 > n >= 0:
-    return print(f"Nota: {n}, REPROVADO!")
   else:
-    return print("NOTA NÃO ESTÁ ENTRE 0 E 10, TENTE NOVAMENTE")
-
+    return print(f"Nota: {n}, REPROVADO!")
+    
 while(True):
 
   ## Entrada de valores
